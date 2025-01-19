@@ -14,7 +14,7 @@
 */
 
 function greet(msg, name) {
-  return msg + ', ' + name;
+  return `${msg}, ${name}`;
 }
 
 console.log(greet('Hi', 'Joe')); 
